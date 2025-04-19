@@ -1,0 +1,11 @@
+ion-content::-webkit-scrollbar {
+  display: none;
+}
+
+ion-content {
+  scrollbar-width: none; // For Firefox
+  -ms-overflow-style: none; // For Internet Explorer
+}
+ion-content {
+  --overflow: hidden;
+}
